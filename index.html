@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vickys GYM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Vickys GYM</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <h1>Welcome to Your Vickys GYM</h1>
+        <p>Your journey to fitness starts here!</p>
+        <a href="#membership" class="cta">Join Us Today and you can call the number 0700067682 if you want to join our membership</a>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>our gym is well equipped with a lot of state of the art equipment like;
+            <ol>
+               <li>chest expanders</li>
+               <li>tummy compressor</li>
+               <li>dumbbells</li>
+               <li>airbikes</li>
+               <li>treadmills</li>
+            </ol>
+        
+        </p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Personal Training</li>
+            <li>Group Classes</li>
+            <li>Cardio</li>
+            <li>Strength Training</li>
+        </ul>
+    </section>
+    <section id="membership">
+        <h2>Membership Plans</h2>
+        <p>our services are affordable as all our services are offered at shs 1000.
+           To all our members we offer services at shs 500 to become a member one can pay shs 5000 monthly or 10000 yearly.
+        </p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="gettyimages-80488814-612x612.jpg"/>
+            <img src="gettyimages-515238274-612x612.jpg"/>
+            <img src="gettyimages-1132006407-612x612.jpg"/>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>We are proud of our services and we would like to say that all our members are satisfied of our members.
+           we have 50,000 members here in kenya and over 300,000 members globally as we are situated around the world.
+           we hope to help others join in our gym so that we can help everyone get fit
+        </p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Vickys GYM. All rights reserved.</p>
+    </footer>
+</body>
+</html>
